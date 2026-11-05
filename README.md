@@ -6,17 +6,23 @@
 
 ## 最终效果预览
 
-以下为真实改名前后名称（已省略本机路径）：
+以下三个原名用于模拟重命名前目录；右列来自 Skill 的正式预览，尚未执行改名：
 
 | 原文件夹名称 | 整理后的名称 |
 |---|---|
-| `重生酒馆 Rebirth Pub V1.10 官中` | `[Seikou Soft.] 転生酒場 =重生酒馆 =Rebirth Pub [UNITY v1.10 %官中]` |
-| `NTR手机  NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
-| `痴情哥哥与病弱妹妹的乡间生活 DLC1-5  steam 版 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 =A Sex-obsessed Older Brother in the Country, and his Traditional, Sickly Little Sister [引擎未知 +DLC1~5 %官中步兵]` |
+| ` NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
+| `痴情哥哥与病弱妹妹的乡间生活 DLC1-5 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 [引擎未知 +DLC1~5 %官中步兵]` |
+| `重生酒馆 v1.10 官中` | `[Seikou Soft.] 転生酒場 =重生酒馆 =Rebirth Pub [UNITY v1.10 %官中]` |
 
-下图是将右列三个已整理目录再次作为一批输入时，Skill 实际生成的 HTML 预览。前两项保持原名；第三项因 100 字符名称上限去掉英文标题。
+第二项因 100 字符名称上限去掉英文标题；原有 DLC 范围和标签保留。
 
-[![三个游戏目录的 Skill 预览](docs/images/three-folder-skill-preview.png)](docs/images/three-folder-skill-preview.png)
+以下是同一份 Skill HTML 预览的三段截图，点击可查看 [完整七列表格](docs/images/three-folder-skill-preview.png)。
+
+[![1. NTR Phone 的改名前后与来源查询](docs/images/preview-1-ntr-phone.png)](docs/images/three-folder-skill-preview.png)
+
+[![2. 病弱妹妹的改名前后与来源查询](docs/images/preview-2-sister-position.png)](docs/images/three-folder-skill-preview.png)
+
+[![3. 重生酒馆的改名前后与来源查询](docs/images/preview-3-rebirth-pub.png)](docs/images/three-folder-skill-preview.png)
 
 Skill 只采用经审核的同作资料，不猜缺失的译名；本地标签保留原有语义，但写法会规范化。正式 `preview.html` 展示名称、来源与查询证据；预览不改目录，执行需要本次批准码。
 

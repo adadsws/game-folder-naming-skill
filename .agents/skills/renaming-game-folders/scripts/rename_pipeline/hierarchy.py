@@ -43,8 +43,8 @@ def _relative_path(root: Path, path: Path) -> str:
 
 
 def _resolve_relative_directory(root: Path, value: Any, label: str) -> Path:
-    text = str(value or "").strip()
-    if not text:
+    text = "" if value is None else str(value)
+    if not text.strip():
         raise ValueError(f"{label}不能为空")
     path = (root / Path(text)).resolve()
     if not _inside(path, root) or not path.is_dir():

@@ -6,17 +6,23 @@ When game folders have partial titles, missing developers, or inconsistent versi
 
 ## Final result preview
 
-These are real before-and-after names, with local paths omitted:
+These three original names simulate folders before renaming. The right column comes from the Skill's formal preview; no folders were renamed:
 
 | Original folder name | Organized name |
 |---|---|
-| `重生酒馆 Rebirth Pub V1.10 官中` | `[Seikou Soft.] 転生酒場 =重生酒馆 =Rebirth Pub [UNITY v1.10 %官中]` |
-| `NTR手机  NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
-| `痴情哥哥与病弱妹妹的乡间生活 DLC1-5  steam 版 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 =A Sex-obsessed Older Brother in the Country, and his Traditional, Sickly Little Sister [引擎未知 +DLC1~5 %官中步兵]` |
+| ` NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
+| `痴情哥哥与病弱妹妹的乡间生活 DLC1-5 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 [引擎未知 +DLC1~5 %官中步兵]` |
+| `重生酒馆 v1.10 官中` | `[Seikou Soft.] 転生酒場 =重生酒馆 =Rebirth Pub [UNITY v1.10 %官中]` |
 
-This is the Skill's actual HTML preview when the three organized names above are scanned together. The first two stay unchanged; the third loses its English title under the 100-character name limit.
+The second name drops its English title under the 100-character limit; its DLC range and tags remain.
 
-[![Skill preview for three game folders](docs/images/three-folder-skill-preview.png)](docs/images/three-folder-skill-preview.png)
+These are three sections of the same Skill HTML preview. Click an image to view the [full seven-column table](docs/images/three-folder-skill-preview.png).
+
+[![1. NTR Phone before and after, with source queries](docs/images/preview-1-ntr-phone.png)](docs/images/three-folder-skill-preview.png)
+
+[![2. Sister Position game before and after, with source queries](docs/images/preview-2-sister-position.png)](docs/images/three-folder-skill-preview.png)
+
+[![3. Rebirth Pub before and after, with source queries](docs/images/preview-3-rebirth-pub.png)](docs/images/three-folder-skill-preview.png)
 
 The Skill uses reviewed matches and does not guess missing translations. Local tag meanings stay intact while their notation is normalized. The generated `preview.html` shows names, sources, and search evidence. Previewing changes no folders; applying requires that preview's approval code.
 
