@@ -1,4 +1,4 @@
-# 游戏文件夹规范化
+# VNDB/DLsite/Steam 游戏文件夹名称规范 Skill
 
 [简体中文](README.md) | [English](README_EN.md)
 
