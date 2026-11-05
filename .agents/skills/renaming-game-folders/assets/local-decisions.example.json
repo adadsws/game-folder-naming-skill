@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "decision_schema_version": 3,
+  "series": [],
+  "games": [
+    {
+      "game_id": "game-0123456789abcdef",
+      "developer_evidence": {
+        "value": "Example Studio",
+        "evidence": ["本地名称中的制作方字段"]
+      },
+      "local_field_decisions": {
+        "engine": true,
+        "version": true,
+        "dlc": false,
+        "dlc_version": false,
+        "dlc_range": false,
+        "version_tags": [],
+        "positive_tag": false,
+        "negative_tags": []
+      },
+      "titles": {
+        "jp": null,
+        "zh": "示例二",
+        "en": "Example 2"
+      },
+      "confidence": 0.98,
+      "reason": "中英文标题、制作方与本地候选均有明确证据",
+      "review_state": "accepted"
+    }
+  ]
+}

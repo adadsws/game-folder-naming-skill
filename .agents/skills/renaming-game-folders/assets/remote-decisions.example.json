@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "decision_schema_version": 3,
+  "series": [],
+  "games": [
+    {
+      "game_id": "game-0123456789abcdef",
+      "candidate_decisions": [
+        {
+          "candidate_key": "candidate-0123456789abcdef0123",
+          "disposition": "adopted",
+          "reason": "标题、制作方与作品身份一致"
+        }
+      ],
+      "title_assignments": [
+        {
+          "candidate_key": "candidate-0123456789abcdef0123",
+          "field": "en_title",
+          "language": "en"
+        }
+      ],
+      "confidence": 0.99,
+      "reason": "采用候选的英文标题槽已审核",
+      "review_state": "accepted"
+    }
+  ]
+}

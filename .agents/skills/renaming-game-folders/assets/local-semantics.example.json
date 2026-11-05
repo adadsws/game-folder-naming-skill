@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "analysis_fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "series": [
+    {
+      "series_id": "series-0123456789abcdef",
+      "source_path": "C:\\Games\\Example Collection",
+      "input_fingerprint": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "reviewed_surface_fields": {
+        "positive_tag": "官中",
+        "negative_tags": []
+      },
+      "confidence": 0.98,
+      "reason": "AI 复核合集表面的具体标签候选",
+      "review_state": "accepted"
+    }
+  ],
+  "games": [
+    {
+      "game_id": "game-0123456789abcdef",
+      "source_path": "C:\\Games\\Example 2",
+      "input_fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "raw_name": "Example 2 =示例二 v1.0",
+      "hierarchy_context": {
+        "leaf_type": "series_child",
+        "series_id": "series-0123456789abcdef",
+        "organization_relative_paths": []
+      },
+      "local_evidence_refs": {
+        "primary_executable": "Game.exe",
+        "engine_markers": ["UnityPlayer.dll"],
+        "name_evidence": ["Example 2 =示例二 v1.0"],
+        "text_sources": [],
+        "source_ids": {}
+      },
+      "developer_evidence": {
+        "value": "Example Studio",
+        "evidence": ["系列表面的方括号字段"]
+      },
+      "reviewed_local_fields": {
+        "engine": "UNITY",
+        "version": "1.0",
+        "dlc": false,
+        "dlc_version": null,
+        "dlc_range": null,
+        "version_tags": [],
+        "positive_tag": null,
+        "negative_tags": []
+      },
+      "titles": {
+        "local_segments": ["Example 2", "示例二"],
+        "local_segments_by_language": {
+          "jp": [],
+          "zh": ["示例二"],
+          "en": ["Example 2"]
+        },
+        "jp": null,
+        "zh": "示例二",
+        "en": "Example 2",
+        "search_keywords": {
+          "jp": null,
+          "zh": "示例二",
+          "en": "Example 2"
+        }
+      },
+      "search_keyword_plan": {
+        "jp": null,
+        "zh": {
+          "primary": "示例二",
+          "fallback": "示例 二",
+          "required_identity_tokens": ["二"]
+        },
+        "en": {
+          "primary": "Example 2",
+          "fallback": null,
+          "required_identity_tokens": ["2"]
+        }
+      },
+      "subtitle_boundary": null,
+      "series_id": "series-0123456789abcdef",
+      "series_common_titles": {
+        "jp": null,
+        "zh": "示例",
+        "en": "Example"
+      },
+      "english_fallback": {
+        "developer": "Example Studio",
+        "en_title": "Example 2"
+      },
+      "confidence": 0.98,
+      "reason": "中英文标题和续作编号明确",
+      "review_state": "accepted"
+    }
+  ]
+}

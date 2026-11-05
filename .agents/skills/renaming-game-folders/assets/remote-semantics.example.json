@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "analysis_fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "local_semantics_fingerprint": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "search_fingerprint": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "games": [
+    {
+      "game_id": "game-0123456789abcdef",
+      "selected_candidates": [
+        {
+          "source": "VNDB",
+          "source_id": "v100",
+          "url": "https://vndb.org/v100"
+        }
+      ],
+      "returned_titles": {
+        "jp": "サンプル2",
+        "zh": "示例二",
+        "en": "Example 2"
+      },
+      "developer": "Example Studio",
+      "engine": null,
+      "field_sources": {
+        "developer": "VNDB",
+        "jp": "VNDB",
+        "zh": "VNDB",
+        "en": "VNDB"
+      },
+      "source_disposition": {
+        "VNDB": "adopted"
+      },
+      "confidence": 0.99,
+      "reason": "标题、developer 与来源 ID 一致",
+      "review_state": "accepted"
+    }
+  ]
+}

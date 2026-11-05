@@ -1,0 +1,4 @@
+interface:
+  display_name: "游戏文件夹规范化"
+  short_description: "结合本地证据与 VNDB、DLsite、Steam 生成安全重命名预览"
+  default_prompt: "扫描游戏目录并先生成待批准的规范化预览表。"

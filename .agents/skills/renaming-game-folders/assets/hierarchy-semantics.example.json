@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "decision_schema_version": 2,
+  "scan_fingerprint": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "game_roots": [
+    {
+      "relative_path": "@@1 Series/Example 1",
+      "candidate_ids": ["exe-0123456789abcdef"],
+      "type": "series_child",
+      "confidence": 0.98,
+      "reason": "该目录具有独立主 EXE，系列祖先下还有其他独立成员"
+    }
+  ],
+  "containers": [
+    {
+      "relative_path": "@@1 Series",
+      "type": "series",
+      "child_roots": ["@@1 Series/Example 1"]
+    }
+  ]
+}

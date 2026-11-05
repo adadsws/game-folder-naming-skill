@@ -1,0 +1,9 @@
+# Local game catalog and generated output.
+/data/successful-games.csv
+/~outputs-intermediate/
+/~outputs-final/
+/~temp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/

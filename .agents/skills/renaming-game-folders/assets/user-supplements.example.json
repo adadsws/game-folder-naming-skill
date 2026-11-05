@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "manual_supplement",
+  "analysis_fingerprint": "<当前 analysis-input.json 的 input_fingerprint>",
+  "games": [
+    {
+      "game_id": "game-example",
+      "developer_evidence": {
+        "value": "示例制作方",
+        "reason": "用户明确确认制作方"
+      },
+      "english_fallback": {
+        "developer": "Example Studio",
+        "en_title": "Example Game",
+        "reason": "用户明确确认纯英文路径需要使用这些 ASCII 字样"
+      },
+      "english_path_override": {
+        "allow_non_ascii": true,
+        "reason": "用户明确要求此游戏允许非 ASCII 目标名"
+      },
+      "title_evidence": {
+        "zh": {
+          "value": "示例标题",
+          "search_keyword": "示例标题",
+          "reason": "用户明确确认该语言标题"
+        }
+      }
+    }
+  ],
+  "candidate_seeds": [
+    {
+      "game_id": "game-example",
+      "source": "VNDB",
+      "source_id": "v123",
+      "url": "https://vndb.org/v123",
+      "provided_url": "https://vndb.org/v123",
+      "reason": "用户明确提供该详情链接"
+    }
+  ],
+  "non_game_candidates": [
+    {
+      "candidate_id": "exe-example",
+      "reason": "用户明确确认该启动候选不是游戏"
+    }
+  ]
+}
