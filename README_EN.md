@@ -4,7 +4,7 @@
 
 ## Final result preview
 
-Give Codex a game directory. It reviews the folders and consults VNDB, DLsite, and Steam for confirmed developers and Japanese, Chinese, and English titles. Local versions, DLC, and tags are organized into a consistent format. These are real before-and-after names from historical approved manifests; local paths are omitted:
+The `renaming-game-folders` Skill reviews game directories, uses VNDB, DLsite, and Steam to fill confirmed developers and multilingual titles, and organizes local versions, DLC, and tags. These are real before-and-after names, with local paths omitted:
 
 | Original folder name | Organized name |
 |---|---|
@@ -12,18 +12,16 @@ Give Codex a game directory. It reviews the folders and consults VNDB, DLsite, a
 | `NTR手机  NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
 | `痴情哥哥与病弱妹妹的乡间生活 DLC1-5  steam 版 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 =A Sex-obsessed Older Brother in the Country, and his Traditional, Sickly Little Sister [引擎未知 +DLC1~5 %官中步兵]` |
 
-[Open the three-example HTML preview](docs/three-renames-preview.html). Developers and titles come only from reviewed matches; missing languages are not guessed. Reviewed local tag meanings stay intact, although their notation may change, such as `官中` → `%官中`. The second result has only an English title: original title fields are not retained unconditionally.
-
-A real run produces `preview.html`, `preview.md`, a decision list, and a simulated folder tree, with source evidence and three language searches. Previewing does not change game folders. Applying requires the approval code for that specific preview.
+The Skill uses reviewed matches and does not guess missing translations. Local tag meanings stay intact while their notation is normalized. The generated `preview.html` shows names, sources, and search evidence. Previewing changes no folders; applying requires that preview's approval code.
 
 ## Setup
 
-1. Install Python 3.11 or newer. The scripts use only the Python standard library.
-2. Clone or copy the project and open its root directory in Codex. The project Skill is in `.agents/skills/renaming-game-folders/`.
-3. Prepare the game folder to scan. Before searching online, explicitly authorize sending this run's game titles, search terms, and source IDs to VNDB, DLsite, and Steam. For a large root, `--include-path` can select subtrees relative to it.
+1. Install Python 3.11+; no third-party Python packages are needed.
+2. Copy the project and load the [renaming-game-folders Skill](.agents/skills/renaming-game-folders/SKILL.md).
+3. Prepare the game directory. Before searching, authorize sending this run's titles, queries, and source IDs to VNDB, DLsite, and Steam. Use `--include-path` to limit large roots to selected subtrees.
 
 ## Usage
 
-Tell Codex the scan root and scope, for example: “Use `renaming-game-folders` to preview renaming the game folders under `D:\Games`.” Codex follows the [Skill workflow](.agents/skills/renaming-game-folders/SKILL.md) to scan, review, search, and produce the complete preview.
+Invoke the Skill with a scan root, for example: “Use `renaming-game-folders` to preview renaming the game folders under `D:\Games`.”
 
-Review `preview.html`, `decisions.md`, and `folder-structure-preview/`. After approving this preview, provide its approval code to apply the changes. Changes to the folders or preview require a new preview and approval. An execution receipt can be used to generate a separate undo preview.
+Review `preview.html`, `decisions.md`, and `folder-structure-preview/`; then provide this preview's approval code to apply. Folder or result changes require a new preview and approval.
