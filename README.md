@@ -2,9 +2,11 @@
 
 [简体中文](README.md) | [English](README_EN.md)
 
+游戏文件夹只有部分标题、缺少制作方，版本和标签写法也不统一时，逐个查资料并手动改名很费时。`renaming-game-folders` Skill 可批量核对 VNDB、DLsite、Steam，补全可信的制作方与日中英标题，整理本地版本、DLC 和标签，先预览再按批准执行。
+
 ## 最终效果预览
 
-`renaming-game-folders` Skill 审核游戏目录，结合 VNDB、DLsite、Steam 补全可信的制作方与多语标题，并整理本地版本、DLC 和标签。以下为真实改名前后名称（已省略本机路径）：
+以下为真实改名前后名称（已省略本机路径）：
 
 | 原文件夹名称 | 整理后的名称 |
 |---|---|

@@ -2,9 +2,11 @@
 
 [简体中文](README.md) | [English](README_EN.md)
 
+When game folders have partial titles, missing developers, or inconsistent version and tag notation, looking up each game and renaming it by hand takes time. The `renaming-game-folders` Skill reviews folders in batches against VNDB, DLsite, and Steam, fills confirmed developers and Japanese, Chinese, and English titles, organizes local versions, DLC, and tags, and previews changes before applying them with approval.
+
 ## Final result preview
 
-The `renaming-game-folders` Skill reviews game directories, uses VNDB, DLsite, and Steam to fill confirmed developers and multilingual titles, and organizes local versions, DLC, and tags. These are real before-and-after names, with local paths omitted:
+These are real before-and-after names, with local paths omitted:
 
 | Original folder name | Organized name |
 |---|---|
