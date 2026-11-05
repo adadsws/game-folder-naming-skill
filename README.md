@@ -12,6 +12,10 @@
 | `NTR手机  NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
 | `痴情哥哥与病弱妹妹的乡间生活 DLC1-5  steam 版 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 =A Sex-obsessed Older Brother in the Country, and his Traditional, Sickly Little Sister [引擎未知 +DLC1~5 %官中步兵]` |
 
+下图是将右列三个已整理目录再次作为一批输入时，Skill 实际生成的 HTML 预览。前两项保持原名；第三项因 100 字符名称上限去掉英文标题。
+
+[![三个游戏目录的 Skill 预览](docs/images/three-folder-skill-preview.png)](docs/images/three-folder-skill-preview.png)
+
 Skill 只采用经审核的同作资料，不猜缺失的译名；本地标签保留原有语义，但写法会规范化。正式 `preview.html` 展示名称、来源与查询证据；预览不改目录，执行需要本次批准码。
 
 ## 如何配置

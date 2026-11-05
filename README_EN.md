@@ -12,6 +12,10 @@ The `renaming-game-folders` Skill reviews game directories, uses VNDB, DLsite, a
 | `NTR手机  NTR Phone v0.43 官中步兵` | `[Shybox] NTR Phone [GODOT v0.43 %官中步兵]` |
 | `痴情哥哥与病弱妹妹的乡间生活 DLC1-5  steam 版 官中步兵` | `[Sister Position] エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 =痴情哥哥与病弱妹妹的乡间生活 =A Sex-obsessed Older Brother in the Country, and his Traditional, Sickly Little Sister [引擎未知 +DLC1~5 %官中步兵]` |
 
+This is the Skill's actual HTML preview when the three organized names above are scanned together. The first two stay unchanged; the third loses its English title under the 100-character name limit.
+
+[![Skill preview for three game folders](docs/images/three-folder-skill-preview.png)](docs/images/three-folder-skill-preview.png)
+
 The Skill uses reviewed matches and does not guess missing translations. Local tag meanings stay intact while their notation is normalized. The generated `preview.html` shows names, sources, and search evidence. Previewing changes no folders; applying requires that preview's approval code.
 
 ## Setup
